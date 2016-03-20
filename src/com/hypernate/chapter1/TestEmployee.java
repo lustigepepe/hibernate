@@ -23,6 +23,7 @@ public class TestEmployee {
 		Employee alex = new Employee();
 		alex.setEmpId(100);
 		alex.setEmpName("Alex Berry");
+		alex.setEmpEmailAdress("alex@muhh.com");
 
 		session.save(alex);
 		// here start the saving
