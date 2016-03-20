@@ -8,7 +8,7 @@ import org.hibernate.tool.hbm2ddl.SchemaExport;
 public class TestEmployee {
 
 	public static void main(String[] args) {
-
+		// 
 		AnnotationConfiguration config = new AnnotationConfiguration();
 		config.addAnnotatedClass(Employee.class);
 		config.configure("hibernate.cfg.xml");
