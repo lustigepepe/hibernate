@@ -1,0 +1,70 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;\f2\fnil\fcharset0 Monaco;
+\f3\fmodern\fcharset0 Courier-Bold;\f4\fmodern\fcharset0 CourierNewPSMT;\f5\fmodern\fcharset0 CourierNewPS-ItalicMT;
+}
+{\colortbl;\red255\green255\blue255;\red242\green242\blue242;\red244\green245\blue255;\red34\green79\blue188;
+\red255\green255\blue255;\red12\green99\blue153;\red245\green245\blue247;\red38\green38\blue38;\red135\green135\blue135;
+\red133\green0\blue67;\red148\green108\blue71;\red255\green255\blue255;\red127\green0\blue85;\red0\green0\blue255;
+\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c96078\c96078\c96078;\csgenericrgb\c95846\c95983\c100000;\csgenericrgb\c13206\c30848\c73913;
+\csgray\c100000;\cssrgb\c0\c46667\c66667;\cssrgb\c96863\c96863\c97647;\cssrgb\c20000\c20000\c20000;\cssrgb\c60000\c60000\c60000;
+\cssrgb\c60000\c0\c33333;\cssrgb\c65098\c49804\c34902;\cssrgb\c100000\c100000\c100000\c49804;\csgenericrgb\c49804\c0\c33333;\csgenericrgb\c0\c0\c100000;
+\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\vieww28600\viewh14640\viewkind0
+\deftab720
+\pard\pardeftab720\sl276\slmult1\sa200\partightenfactor0
+
+\f0\fs36 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf0 \cb2 \expnd0\expndtw0\kerning0
+ java -cp 
+\f2\fs28 \cf3 \cb4 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/bic_mac/Documents/DirtyLive/Dbs/hsqldb/lib/hsqldb.jar
+\f1\fs26 \cf0 \cb2 \expnd0\expndtw0\kerning0
+\CocoaLigature1  org.hsqldb.server.Server --database.0 file:hib5 --dbname.0 hib
+\f0\fs36 \cb5 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\sl276\slmult1\sa200\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b \cf0 \cb2 \expnd0\expndtw0\kerning0
+jdbc:derby://localhost:1527/HibernateDb;create=true\
+
+\f1\b0\fs26 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf6 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 DROP\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  \cf6 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 TABLE\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  \cf6 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 IF\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  \cf6 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 EXISTS\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  CUSTOMER\cf9 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 ;\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 \
+\cf6 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 CREATE\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  \cf6 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 TABLE\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  CUSTOMER \cf9 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 (\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 \
+  FIRSTNAME \cf6 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 VARCHAR\cf9 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 (\cf10 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 10\cf9 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 )\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  \cf11 \cb12 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 NOT\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  \cf10 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 NULL\cf9 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 ,\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 \
+  LASTNAME \cf6 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 VARCHAR\cf9 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 (\cf10 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 20\cf9 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 )\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  \cf11 \cb12 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 NOT\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  \cf10 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 NULL\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 \
+\cf9 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 )\cf8 \cb7 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 ;\
+\
+org.hsqldb.jdbcDriver\
+SAMPLE\
+\
+sa\
+sa\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b \cf0 \cb5 \shad0 INSERT INTO CUSTOMER (FIRSTNAME,LASTNAME) VALUES (\'82HH\'91,\'92TEN\'92);\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\b0\fs22 \cf13 \kerning1\expnd0\expndtw0 INSERT\cf0  \cf13 INTO\cf0  CUSTOMER \cf13 VALUES\cf0  (\cf14 'aa'\cf0 ,\cf14 'qssq'\cf0 ); \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs32 \cf0 \cb15 \expnd0\expndtw0\kerning0
+DELETE FROM 
+\f5\i CUSTOMER
+\f4\i0 \cb5  \cb15 WHERE 
+\f5\i FIRSTNAME
+\f4\i0 =\'82
+\f5\i pi\'91
+\f4\i0 ;
+\f2\fs22 \cb5 \kerning1\expnd0\expndtw0 \
+\
+}

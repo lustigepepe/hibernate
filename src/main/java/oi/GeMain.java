@@ -58,8 +58,8 @@ public class GeMain {
 			for (PojoSql event : (List<PojoSql>) result) {
 				System.out.println("Event (" + event.getFirstName() + ") : " + event.getLastName());
 			}
-			//
-			//
+			
+			
 			session.getTransaction().commit();
 			session.close();
 
