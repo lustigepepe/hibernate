@@ -18,5 +18,6 @@
         <mapping class="oi.PojoSql"/>
         
         
+        
     </session-factory>
 </hibernate-configuration>
